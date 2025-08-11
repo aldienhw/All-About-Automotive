@@ -1,0 +1,449 @@
+@keyframes fadeIn{
+    to {
+        opacity: 1;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 5px black;
+    background-image: linear-gradient(black, #111);
+    z-index: 1000;
+}
+
+.navicon {
+    border-radius: 100%;
+    margin-left: 50px;
+    transition: box-shadow 0.5s ease-in, transform 0.3s ease;
+}
+
+.navicon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px white;
+}
+
+.iconname {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient( #333, darkgray);
+    color: transparent;
+    background-clip: text;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.navlinks {
+    display: flex;
+    margin-left: 400px;
+}
+
+.navlinks a{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: none;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.navlinks a:hover{
+    color: #333;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 15px white;
+}
+
+#home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    height: 86.5vh;
+    background-image: url(/BVi34co-car-logos-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#home::before {
+    content: "";
+    inset: 0;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    position: absolute;
+    filter: blur(5px);
+    z-index: 0;
+}
+
+.homelogo {
+    margin-right: 200px;
+    z-index: 0;
+}
+
+.hometext {
+    text-align: center;
+    z-index: 1;
+}
+
+.navicon2 {
+    border-radius: 100%;
+    transition: box-shadow 0.5s ease-in, transform 0.3s ease;
+}
+
+.navicon2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px white;
+}
+
+.hometext h1 {
+    color: black;
+    text-shadow: 0px 0px 5px white;
+    font-family: "monotype corsiva";
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+.hometext p {
+    margin-top: 20px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px white;
+}
+
+.llinkof a{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(gold, black);
+    transition: box-shadow 0.2s ease-in;
+}
+
+.llinkof a:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px gold;
+}
+
+#lamborghini {
+    display: flex;
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+}
+
+#lamborghini video {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+    z-index: -1;
+}
+
+.lamlogo {
+    margin-top: 150px;
+}
+
+.ldescription {
+    margin-right: 550px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.ldescription h1 {
+    font-family: "Alex Brush", "Monotype Corsiva";
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(to right, black, gold);
+    background-clip: text;
+}
+
+.ldescription p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:1px 1px 5px #fff;
+}
+
+.limages {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.limgcontent img {
+    display: inline-block;
+}
+
+.limgcontent h1 {
+    color: transparent;
+    background-image: linear-gradient( #333, gold);
+    background-clip: text;
+    font-size: 23px;
+}
+
+.limgcontent h2 {
+    color: transparent;
+    background-image: linear-gradient( #333, gold);
+    background-clip: text;
+    font-size: 13px;
+}
+
+.lheadquarter img {
+    border: 2px gold solid;
+    border-radius: 20px;
+}
+
+.tlinkof a{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(white, gray);
+    transition: box-shadow 0.2s ease-in;
+}
+
+.tlinkof a:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px white;
+}
+
+#toyota {
+    display: flex;
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+}
+
+#toyota video {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+    z-index: -1;
+}
+
+.toylogo {
+    margin-top: 150px;
+}
+
+.tdescription {
+    margin-right: 550px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.tdescription h1 {
+    font-family: "Alex Brush", "Monotype Corsiva";
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(to right, white, gray);
+    background-clip: text;
+}
+
+.tdescription p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:1px 1px 5px #fff;
+}
+
+.timages {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.timgcontent img {
+    display: inline-block;
+}
+
+.timgcontent h1 {
+    color: transparent;
+    background-image: linear-gradient( #333, white);
+    background-clip: text;
+    font-size: 23px;
+}
+
+.timgcontent h2 {
+    color: transparent;
+    background-image: linear-gradient( #333, white);
+    background-clip: text;
+    font-size: 13px;
+}
+
+.theadquarter img {
+    border: 2px white solid;
+    border-radius: 20px;
+}
+
+.blinkof a{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(darkblue, gray);
+    transition: box-shadow 0.2s ease-in;
+}
+
+.blinkof a:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px blue;
+}
+
+#bmw {
+    display: flex;
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+}
+
+#bmw video {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+    z-index: -1;
+}
+
+.bmwlogo {
+    margin-top: 150px;
+}
+
+.bdescription {
+    margin-right: 550px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bdescription h1 {
+    font-family: "Alex Brush", "Monotype Corsiva";
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(to right, blue, gray);
+    background-clip: text;
+}
+
+.bdescription p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:1px 1px 5px #fff;
+}
+
+.bimages {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.bimgcontent img {
+    display: inline-block;
+}
+
+.bimgcontent h1 {
+    color: transparent;
+    background-image: linear-gradient( #333, blue);
+    background-clip: text;
+    font-size: 23px;
+}
+
+.bimgcontent h2 {
+    color: transparent;
+    background-image: linear-gradient( #333, blue);
+    background-clip: text;
+    font-size: 13px;
+}
+
+.bheadquarter img {
+    border: 2px blue solid;
+    border-radius: 20px;
+}
+
+.footer {
+    height: 230px;
+    background-image: url(/DarkBackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footerdes {
+    text-shadow: 0px 0px 10px white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerdes h1 {
+    padding-top: 30px;
+}
+
+.footlinks {
+    display: flex;
+    gap: 10px;
+}
+
+.footericon {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.visitme {
+    text-align: center;
+}
+
+.visitme a {
+    width: 100%;
+    border-radius: 100%;
+    background-color: none;
+    transition: background-color 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.visitme a:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px white;
+}
