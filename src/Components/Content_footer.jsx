@@ -53,7 +53,7 @@ function Content() {
         </section>
         <section id='bmw'>
             <video autoPlay muted loop playsInline>
-                <source src="/vecteezy_3d-rendered-super-car-cinematic-front-view-in-dark_35355667.mp4" type="video/mp4"/>
+                <source src="vecteezy_3d-rendered-super-car-cinematic-front-view-in-dark_35355667.mp4" type="video/mp4"/>
             </video>
             <div className='bdescription'>
                 <h1>BMW</h1>
