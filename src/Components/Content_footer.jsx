@@ -5,7 +5,7 @@ function Content() {
         <>
         <section id='lamborghini'>
             <video autoPlay muted loop playsInline>
-                <source src="/All-About-Automotive/vecteezy_aurangabad-india-oct-30-2023-3d-rendered-cinematic-view_34495911.mp4" type="video/mp4"/>
+                <source src="vecteezy_aurangabad-india-oct-30-2023-3d-rendered-cinematic-view_34495911.mp4" type="video/mp4"/>
             </video>
             <div className='ldescription'>
                 <h1>Lamborghini</h1>
@@ -15,10 +15,10 @@ function Content() {
             </div>
             <div className='limages'>
                 <div className='limgcontent'>
-                    <img className='lamlogo' src="/All-About-Automotive/Lamborghini.png" alt="" width={80} />
+                    <img className='lamlogo' src="Lamborghini.png" alt="" width={80} />
                     <div className='lheadquarter'>
                         <h1>Headquarter</h1>
-                        <img src="/All-About-Automotive/LamborginiHeadquarter.jpg" alt="" width={250} />
+                        <img src="LamborginiHeadquarter.jpg" alt="" width={250} />
                         <h2>Sant'Agata Bolognese, Italy</h2>
                     </div>
                     <div className='llinkof'>
@@ -29,7 +29,7 @@ function Content() {
         </section>
         <section id='toyota'>
             <video autoPlay muted loop playsInline>
-                <source src="/All-About-Automotive/vecteezy_aurangabad-india-oct-31-2023-3d-rendered-toyota-supra_33241940.mp4" type="video/mp4"/>
+                <source src="vecteezy_aurangabad-india-oct-31-2023-3d-rendered-toyota-supra_33241940.mp4" type="video/mp4"/>
             </video>
             <div className='tdescription'>
                 <h1>Toyota</h1>
@@ -39,10 +39,10 @@ function Content() {
             </div>
             <div className='timages'>
                 <div className='timgcontent'>
-                    <img className='toylogo' src="/All-About-Automotive/Toyota.png" alt="" width={80} />
+                    <img className='toylogo' src="Toyota.png" alt="" width={80} />
                     <div className='theadquarter'>
                         <h1>Headquarter</h1>
-                        <img src="/All-About-Automotive/ToyotaHeadquarter.jpg" alt="" width={250} />
+                        <img src="ToyotaHeadquarter.jpg" alt="" width={250} />
                         <h2>Aichi, Japan</h2>
                     </div>
                     <div className='tlinkof'>
@@ -53,7 +53,7 @@ function Content() {
         </section>
         <section id='bmw'>
             <video autoPlay muted loop playsInline>
-                <source src="/All-About-Automotive/vecteezy_3d-rendered-super-car-cinematic-front-view-in-dark_35355667.mp4" type="video/mp4"/>
+                <source src="vecteezy_3d-rendered-super-car-cinematic-front-view-in-dark_35355667.mp4" type="video/mp4"/>
             </video>
             <div className='bdescription'>
                 <h1>BMW</h1>
@@ -63,10 +63,10 @@ function Content() {
             </div>
             <div className='bimages'>
                 <div className='bimgcontent'>
-                    <img className='bmwlogo' src="/All-About-Automotive/BMW.png" alt="" width={80} />
+                    <img className='bmwlogo' src="BMW.png" alt="" width={80} />
                     <div className='bheadquarter'>
                         <h1>Headquarter</h1>
-                        <img src="/All-About-Automotive/BMWHeadquarter.jpg" alt="" width={250} />
+                        <img src="BMWHeadquarter.jpg" alt="" width={250} />
                         <h2>Munich, German</h2>
                     </div>
                     <div className='blinkof'>
@@ -81,8 +81,8 @@ function Content() {
                 <div className='visitme'>
                     <h2>Visit me:</h2>
                     <div className='footlinks'>
-                        <a href="https://github.com/aldienhw"><img src="/All-About-Automotive/github.png" alt="" width={64}/></a>
-                        <a href="https://www.instagram.com/aldhdrwhy/profilecard/?igsh=MXZtd2d4ZjBlMHdydg=="><img src="/All-About-Automotive/Instagram.png" alt="" width={64}/></a>
+                        <a href="https://github.com/aldienhw"><img src="github.png" alt="" width={64}/></a>
+                        <a href="https://www.instagram.com/aldhdrwhy/profilecard/?igsh=MXZtd2d4ZjBlMHdydg=="><img src="Instagram.png" alt="" width={64}/></a>
                     </div>
                 </div>
             </div>
