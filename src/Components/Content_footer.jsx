@@ -29,7 +29,7 @@ function Content() {
         </section>
         <section id='toyota'>
             <video autoPlay muted loop playsInline>
-                <source src="/vecteezy_aurangabad-india-oct-31-2023-3d-rendered-toyota-supra_33241940.mp4" type="video/mp4"/>
+                <source src="vecteezy_aurangabad-india-oct-31-2023-3d-rendered-toyota-supra_33241940.mp4" type="video/mp4"/>
             </video>
             <div className='tdescription'>
                 <h1>Toyota</h1>
